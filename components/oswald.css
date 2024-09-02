@@ -1,0 +1,33 @@
+.oswald-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.oswald-national {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.oswald-image {
+  width: 200px;
+  object-fit: cover;
+}
+.oswald-fragment1 {
+  display: contents;
+}
+.oswald-text3 {
+  display: inline-block;
+}
+.oswald-fragment2 {
+  display: contents;
+}
+.oswald-text4 {
+  display: inline-block;
+}
